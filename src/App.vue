@@ -6,6 +6,8 @@ import Button from './components/Button.vue'
 
   <main>
     <div>
+      <h1>Hello world</h1>
+      <Button>Click</Button>
     </div>
   </main>
 </template>
