@@ -5,7 +5,8 @@ import Button from './components/Button.vue'
 <template>
 
   <main>
-    
+    <div>
+    </div>
   </main>
 </template>
 
