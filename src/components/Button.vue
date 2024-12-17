@@ -40,7 +40,7 @@ export default {
 }
 
 .button--primary {
-  background-color: #1e90ff;
+  background-color: #cb1eff;
   color: white;
   border-radius: 30px;
 }
