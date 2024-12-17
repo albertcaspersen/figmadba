@@ -41,7 +41,7 @@ export default {
 
 .button--primary {
   background-color: #101279;
-  color: rgb(155, 37, 37);
+  color: rgb(255, 255, 255);
   border-radius: 30px;
 }
 
