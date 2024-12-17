@@ -46,13 +46,16 @@ export default {
 }
 
 .button--secondary {
-  background-color: #d3d3d3;
-  color: black;
+  background-color: #FF4E58;
+  color: #fff;
+  border-radius: 30px;
+
 }
 
-.button--danger {
-  background-color: #ff4d4f;
-  color: white;
+.button--tetriary {
+  border-radius: 28.5px;
+  border: 3px solid #101279;
+  background: #FFF; 
 }
 
 .button:disabled {

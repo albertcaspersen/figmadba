@@ -6,7 +6,7 @@ export default {
   argTypes: {
     type: {
       control: { type: "select" },
-      options: ["primary", "secondary", "danger"], // Muligheder for typen
+      options: ["primary", "secondary", "tetriary"], // Muligheder for typen
     },
     disabled: {
       control: { type: "boolean" },
@@ -37,10 +37,10 @@ Secondary.args = {
   disabled: false,
 };
 
-export const Danger = Template.bind({});
-Danger.args = {
-  type: "danger",
-  label: "Danger Button",
+export const Tetriary = Template.bind({});
+Tetriary.args = {
+  type: "tetriary",
+  label: "Tetriary Button",
   disabled: false,
 };
 
