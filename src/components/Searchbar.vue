@@ -27,9 +27,8 @@ export default {
         line-height: 125.987%; /* 25.197px */
         letter-spacing: 1px;
         color: #ACACAC;
-        width: 145.918px;
-        height: 35px;
-
+        align-content: center;
+        padding-left: 20px;
 
     }
 

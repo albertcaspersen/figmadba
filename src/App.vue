@@ -69,6 +69,14 @@ import './fonts.css';
   .button {
   grid-column: 5; /* Places the button in column 5 */
   justify-self: start; /* Aligns the button to the start of the column */
+  display: flex;
+  width: 200px;
+  height: 50px;
+  padding: 9px 15px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
 }
 
 .button2 {
