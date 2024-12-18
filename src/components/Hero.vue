@@ -1,9 +1,19 @@
+<script>
+
+import Seller from './Seller.vue'
+
+    export default {
+
+    };
+</script>
+
 <template>
     <div class="hero">
         <p class="title">Glas keramik skulptur</p>
         <p class="price">1.399 kr.</p>
         <hr>
         <img src="./assets/Fisk.png" alt="" class="fisk">
+        <Seller class="seller"></Seller>
     </div>
 </template>
 
@@ -55,10 +65,9 @@
   grid-column:2;
   }
 
+  .seller {
+    grid-column: 5;
+  }
+
+
 </style>
-
-<script>
-    export default {
-
-    };
-</script>
