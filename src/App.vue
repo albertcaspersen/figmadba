@@ -1,7 +1,6 @@
 <script setup>
 import Button from './components/Button.vue'
 import Searchbar from './components/Searchbar.vue'
-import Logo from './components/icons/logo.png'
 </script>
 
 <template>
@@ -18,6 +17,12 @@ import Logo from './components/icons/logo.png'
 </template>
 
 <style scoped>
+
+  body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+  }
+
+
   .header {
   display: grid;
   grid-template-columns: repeat(6, 1fr); /* 6 equal columns */
@@ -38,14 +43,6 @@ import Logo from './components/icons/logo.png'
   .button {
   grid-column: 5; /* Places the button in column 5 */
   justify-self: start; /* Aligns the button to the start of the column */
-  display: flex;
-  width: 200px;
-  height: 50px;
-  padding: 9px 15px;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-  flex-shrink: 0;
 }
 
 .button2 {
