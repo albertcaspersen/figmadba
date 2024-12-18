@@ -1,4 +1,11 @@
+<script>
 
+import Hero from './Hero.vue'
+
+export default {
+};
+
+</script>
 
 <template>
     <div class="ramme">
@@ -31,8 +38,3 @@
     </style>
 
 
-<script>
-export default {
-};
-
-</script>

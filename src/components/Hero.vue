@@ -1,16 +1,16 @@
 <script>
 
-import Seller from './Seller.vue'
+import Seller from './Seller.vue';
 
     export default {
-
-    };
+    components: { Seller }
+};
 
 </script>
 
 <template>
     <div class="hero">
-        <p class="title">Malawi Cyrtocara moorii
+          <p class="title">Malawi Cyrtocara moorii
 </p>
         <p class="price">39 kr.</p>
         <hr>
@@ -22,7 +22,10 @@ KUN UNGER til salg på 5cm, hurtig voksende fisk, anbefales har dem i yngleakvar
 Pr fisk 35kr
 3 fisk for 100kr
 Fast pris, levering kan aftales.</p>
+<Seller class="seller"></Seller>
+
     </div>
+    
 </template>
 
 <style>
