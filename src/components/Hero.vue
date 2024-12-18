@@ -5,27 +5,50 @@ import Seller from './Seller.vue'
     export default {
 
     };
+
 </script>
 
 <template>
     <div class="hero">
-        <p class="title">Glas keramik skulptur</p>
-        <p class="price">1.399 kr.</p>
+        <p class="title">Malawi Cyrtocara moorii
+</p>
+        <p class="price">39 kr.</p>
         <hr>
         <img src="./assets/Fisk.png" alt="" class="fisk">
-        <Seller class="seller"></Seller>
+        <p class="info">Malawi unger af Cyrtocara moorii
+
+Malawi unger af Cyrtocara moorii ; kendt også som: Blue Dolphin Cichlid
+KUN UNGER til salg på 5cm, hurtig voksende fisk, anbefales har dem i yngleakvariet til de bliver 7cm.
+Pr fisk 35kr
+3 fisk for 100kr
+Fast pris, levering kan aftales.</p>
     </div>
 </template>
 
 <style>
+
+
     .hero {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(3, 40px);
+    grid-template-rows: repeat(5, 10px);
     width: 100%;
+    row-gap: 30px; /* Afstand mellem rækker */
+
     
   }
   
+  .info {
+    grid-column: 2;
+    grid-row: 5;
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    letter-spacing: 0.8px;
+    padding-top: 380px;
+  }
+
   .title {
     grid-column: 2;
     grid-row: 1;

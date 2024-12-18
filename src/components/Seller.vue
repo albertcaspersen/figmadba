@@ -1,18 +1,14 @@
-<script>
-export default {
-};
 
-</script>
 
 <template>
     <div class="ramme">
         <div class="skrivKnap">
         </div>
     </div>
-    </template>
-    
 
-    
+</template>
+
+
     <style>
     .skrivKnap {
         width: 12vw;
@@ -31,7 +27,12 @@ export default {
         
         border-radius: 28px;
        
-    }
-    
-    
+    }    
     </style>
+
+
+<script>
+export default {
+};
+
+</script>
