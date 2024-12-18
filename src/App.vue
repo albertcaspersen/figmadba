@@ -1,6 +1,8 @@
 <script setup>
 import Button from './components/Button.vue'
 import Searchbar from './components/Searchbar.vue'
+import './fonts.css';
+
 </script>
 
 <template>
@@ -17,6 +19,12 @@ import Searchbar from './components/Searchbar.vue'
 </template>
 
 <style scoped>
+
+  body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+  }
+
+
   .header {
   display: grid;
   grid-template-columns: repeat(6, 1fr); /* 6 equal columns */
@@ -29,6 +37,7 @@ import Searchbar from './components/Searchbar.vue'
   .button {
   grid-column: 5; /* Places the button in column 5 */
   justify-self: start; /* Aligns the button to the start of the column */
+  font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
 .button2 {
