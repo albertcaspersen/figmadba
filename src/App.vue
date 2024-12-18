@@ -10,15 +10,9 @@ import './fonts.css';
   <main>
     <div class="header">
       <img src="./components/icons/logo.png" alt="" class="logo">
-      <Searchbar></Searchbar>
-<<<<<<< HEAD
-      <Button type="primary" class="button">Opret annonce</Button>
-      <Button type="tetriary" class="button2">Log ind</Button>
-=======
-      <Button type="primary" class="button" style="font-family: 'Plus Jakarta Sans', sans-serif;">Opret annonce</Button>
-      <Button type="tetriary" class="button2" style="font-family: 'Plus Jakarta Sans', sans-serif;">Log ind</Button>
-
->>>>>>> 53693c6fe023e84083a6af3282b077d7501b0a47
+    <Searchbar></Searchbar>
+    <Button type="primary" class="button" style="font-family: 'Plus Jakarta Sans', sans-serif;">Opret annonce</Button>
+    <Button type="tetriary" class="button2" style="font-family: 'Plus Jakarta Sans', sans-serif;">Log ind</Button>
     </div>
 
    <div class="hero">
