@@ -1,6 +1,8 @@
 <script setup>
 import Button from './components/Button.vue'
 import Searchbar from './components/Searchbar.vue'
+import './fonts.css';
+
 </script>
 
 <template>
@@ -9,8 +11,8 @@ import Searchbar from './components/Searchbar.vue'
     <div class="header">
       <img src="./components/icons/logo.png" alt="" class="logo">
       <Searchbar></Searchbar>
-      <Button type="primary" class="button">Opret annonce</Button>
-      <Button type="tetriary" class="button2">Log ind</Button>
+      <Button type="primary" class="button" style="font-family: 'Plus Jakarta Sans', sans-serif;">Opret annonce</Button>
+      <Button type="tetriary" class="button2" style="font-family: 'Plus Jakarta Sans', sans-serif;">Log ind</Button>
 
     </div>
   </main>
