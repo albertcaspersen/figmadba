@@ -1,6 +1,7 @@
 <script setup>
 import Button from './components/Button.vue'
 import Searchbar from './components/Searchbar.vue'
+import Hero from './components/Hero.vue'
 import './fonts.css';
 
 </script>
@@ -14,11 +15,9 @@ import './fonts.css';
     <Button type="primary" class="button" style="font-family: 'Plus Jakarta Sans', sans-serif;">Opret annonce</Button>
     <Button type="tetriary" class="button2" style="font-family: 'Plus Jakarta Sans', sans-serif;">Log ind</Button>
     </div>
-
-   <div class="hero">
-    <p class="title">Glas keramik skulptur</p>
-
-   </div>
+    
+    <Hero></Hero>
+    
     
   </main>
 </template>
@@ -27,13 +26,6 @@ import './fonts.css';
 
   body {
     font-family: 'Plus Jakarta Sans', sans-serif;
-  }
-
-  .hero {
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    width: 100%;
-    height: 500px;
   }
 
   .title {
@@ -62,8 +54,8 @@ import './fonts.css';
     grid-column: 1;
     justify-self: start;
     width: 250px;
-  height: 131px;
-  flex-shrink: 0; 
+    height: 131px;
+    flex-shrink: 0; 
   }
  
   .button {
