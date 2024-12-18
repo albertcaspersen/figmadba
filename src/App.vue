@@ -11,8 +11,13 @@ import Searchbar from './components/Searchbar.vue'
       <Searchbar></Searchbar>
       <Button type="primary" class="button">Opret annonce</Button>
       <Button type="tetriary" class="button2">Log ind</Button>
-
     </div>
+
+   <div class="hero">
+    <p class="title">Glas keramik skulptur</p>
+
+   </div>
+    
   </main>
 </template>
 
@@ -22,6 +27,25 @@ import Searchbar from './components/Searchbar.vue'
     font-family: 'Plus Jakarta Sans', sans-serif;
   }
 
+  .hero {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    width: 100%;
+    height: 500px;
+  }
+
+  .title {
+    grid-column-start: 2;
+    justify-self: start;
+    color: #000;
+    width: 300px;
+    font-family: "Plus Jakarta Sans";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.6px;
+  }
 
   .header {
   display: grid;
